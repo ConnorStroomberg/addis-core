@@ -78,6 +78,10 @@ public class Analysis implements Serializable {
     }
   }
 
+  public void setSelectedOutcomes(List<Outcome> outcomes) {
+    selectedOutcomes = outcomes;
+  }
+
   @Override
   public boolean equals(Object o) {
     if (this == o) return true;
